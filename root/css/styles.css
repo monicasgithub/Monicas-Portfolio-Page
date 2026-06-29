@@ -1,0 +1,68 @@
+/*Stylesheet for Monica's Portfolio Page */
+
+/*
+Color scheme:
+    -cream: #fff8f0;
+    -lavender: #d9c9f0;
+    -mint: #bfe3cf;
+    -peach: #ffd3c2;
+    -plum: #5b4b6e;
+*/
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff8f0;
+    line-height: 1.6;
+}
+
+/*Style Rules Header*/
+
+header {
+    background-color: #d9c9f0;
+    padding: 2em 1.5em;
+    text-align: center;
+    border-bottom: 6px solid #bfe3cf;
+}
+
+header h1 {
+    margin: 0 0 0.25em;
+    font-size: 2.8em;
+    
+    font-family: "Delicious Handrawn";
+}
+
+header p {
+    font-size: 1.3em;
+    font-style: italic;
+    color: #5b4b6e;
+}
+
+/*Style rules for info cards*/
+
+.info-card {
+    background-color: white;
+    border-radius: 14px;
+    padding: 1.5em;
+    box-shadow: 0 2px 8px rgb(91, 75, 11, 0.1);
+    max-width: 800px;
+    margin: 1.5em auto;
+}
+
+.info-card h2 {
+    color: #5b4b6e;
+    border-left: 5px #ffd3c2 solid ;
+    padding-left: 0.5em;
+}
+
+.info-card ul {
+    padding-inline-start: 20px;
+}
+
+.info-card li {
+    margin: 1% 0;
+}
+
+.info-card a, .info-card strong {
+    color: #5b4b6e;
+}
